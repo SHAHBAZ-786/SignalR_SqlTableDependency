@@ -27,7 +27,7 @@ namespace SignalR_SqlTableDependency.Repositories
                     Id = Convert.ToInt32(row["Id"]),
                     Name = row["Name"].ToString(),
                     Gender = row["Gender"].ToString(),
-                    //Mobile = row["Mobile"].ToString()
+                    Mobile = row["Mobile"].ToString()
                 };
                 persons.Add(customer);
             }
